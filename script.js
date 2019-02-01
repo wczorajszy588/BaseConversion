@@ -28,13 +28,13 @@ function convert(input, source, target) {
  
  //converting decimal number to desired numeral system
  let index = target.length - 1;
- let wynik = '';
+ let result = '';
  let wageIndex = wage.length - 1;
  do
  {
     if ( index * wage[wageIndex]  <= decimValue )
     {
-      wynik = wynik + target[index] + '';
+      result = result + target[index] + '';
       decimValue -= (index * wage[wageIndex]);
       wageIndex--;
       index = target.length -1;
@@ -53,5 +53,5 @@ function convert(input, source, target) {
     }
  }
  while ( wageIndex >= 0 )
- return wynik;
+ return result;
 }
