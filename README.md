@@ -1,2 +1,2 @@
-# BaseConversion
-This "project" is my try to write a code that convert one numeral system to another
+# My codewars code
+Here you can see how I resolved given tasks. All the code is written by my own, with my own solution. Neither copy paste nor guded by ready solutions.
